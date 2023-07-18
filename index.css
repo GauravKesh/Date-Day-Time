@@ -81,7 +81,104 @@ form .today input{
     text-align:center;
     flex: 1;
     box-shadow: none;
+    
     font-size: 40px;
     color: #000;
     font-family: 'Times New Roman', T0000mes, serif;
+}
+
+
+@media screen and (max-width:606px){
+
+    .clock form input{
+        width:30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    form .ndate{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        margin: 5px;
+        
+    }
+
+    form .ndate input{
+        text-align:center;
+        flex: 1;
+        box-shadow: none;
+        font-size:10px;
+        font-family: 'Times New Roman', T0000mes, serif;
+    }
+
+    form .today{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        margin: 12px ;
+        
+    }
+    
+
+    form .today input{
+        text-align:center;
+        flex: 1;
+        box-shadow: none;
+        font-size: 10px;
+        color: #000;
+        font-family: 'Times New Roman', T0000mes, serif;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:381px){
+
+    .clock form input{
+        width:30px;
+        height: 30px;
+        font-size: 5px;
+    }
+
+    form .ndate{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        margin: 5px;
+        
+    }
+
+    form .ndate input{
+        text-align:center;
+        flex: 1;
+        box-shadow: none;
+        font-size:5px;
+        font-family: 'Times New Roman', T0000mes, serif;
+    }
+
+    form .today{
+        display: flex;
+        justify-content:center;
+        width: 100%;
+        margin: 5px ;
+        
+    }
+    
+
+    form .today input{
+        text-align:center;
+        flex: 1;
+        box-shadow: none;
+        font-size: 5px;
+        color: #000;
+        font-family: 'Times New Roman', T0000mes, serif;
+    }
+
+    label{
+        font-size: 5px;
+    }
+
 }
