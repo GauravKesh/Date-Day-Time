@@ -1,4 +1,4 @@
-alert("For better view of this webpage open it in \n'DESKTOP MODE' or \n'OPEN IT IN PC'")
+
 "debugger";
 const c = setInterval(myfunc,10);
 
@@ -20,3 +20,5 @@ function myfunc(){
 
 
 }
+
+alert("For better view of this webpage open it in \n'DESKTOP MODE'{if you are using phone} \n'OPEN IT IN PC'")
