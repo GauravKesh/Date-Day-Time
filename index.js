@@ -17,8 +17,9 @@ function myfunc(){
   document.querySelector(".minute").value = dt.getMinutes();
   document.querySelector(".second").value = dt.getSeconds();
   document.querySelector(".ampm").value = ap;
+  // alert("For better view of this webpage open it in \n'DESKTOP MODE'{if you are using phone} \n'OPEN IT IN PC'")
 
 
 }
 
-alert("For better view of this webpage open it in \n'DESKTOP MODE'{if you are using phone} \n'OPEN IT IN PC'")
+
