@@ -9,6 +9,29 @@ body{
 background-color: rgb(37, 27, 16);
 
 }
+.heading{
+    /* width:25%; */
+    height:30%%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #413e3e;
+    
+}
+
+.heading h1{
+    font-size:75px;
+    text-emphasis-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    font-display:unset;
+    font-variant: small-caps;
+    font-synthesis: style;
+    
+
+}
 
 .container{
     display: flex;
@@ -89,6 +112,16 @@ form .today input{
 
 
 @media screen and (max-width:606px){
+    .heading{
+
+        height:20%;
+        
+    }
+    
+    .heading h1{
+        font-size:20px;
+    
+    }
 
     .clock form input{
         width:30px;
@@ -136,6 +169,17 @@ form .today input{
 
 }
 @media screen and (max-width:381px){
+
+    .heading{
+
+        height:20%;
+        
+    }
+    
+    .heading h1{
+        font-size:20px;
+    
+    }
 
     .clock form input{
         width:30px;
